@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery-mirs-monthpicker demo</title>
+    <link href="../dist/jquery.mirs.monthpicker.min.css" rel="stylesheet" type="text/css"/>
+    <style>
+        .container{
+            text-align:center;
+            width:100%;
+            margin-top:20px;
+        }
+        input{
+            width:200px;
+            height:20px;
+            font-size:16px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    请选择：<input id="query-month" value="2016-06">
+</div>
+
+
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="../dist/jquery.mirs.monthpicker.min.js"></script>
+<script>
+    $("#query-month").monthpicker();
+</script>
+</body>
+</html>
